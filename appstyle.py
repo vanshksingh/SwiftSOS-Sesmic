@@ -20,60 +20,14 @@ st_css="""
     padding: 1.8rem 3.5rem 1rem !important;
   }
 
-  /*Sidebar*/
-  .css-1vencpc {
-    width: 20vw !important;
-    max-width: 20vw !important;
-    background: #0e243c;
-  }
-  .css-1vq4p4l{
-    padding: 1rem;
-  }
-  .css-5m2qup{
-    gap: 1.2rem;
-  }
-  #contribute {
-    width: 20px;
-  }
-
+  
   </style>
 """
 
 map_css = """
 {% macro html(this, kwargs) %}
     <head>
-        <title>QuakeEye - Real-Time Earthquake Data Visualization by Ahmed I. Mokhtari</title>
-        
-        <!-- Global Meta Tags -->
-        <meta itemprop="image" content="https://user-images.githubusercontent.com/43890965/221388610-ab938380-7c0f-46bc-be71-6ee2031cb6bb.gif">
-        <meta itemprop="thumbnailUrl" content="https://user-images.githubusercontent.com/43890965/221388610-ab938380-7c0f-46bc-be71-6ee2031cb6bb.gif">
-        <link rel="image_src" href="https://user-images.githubusercontent.com/43890965/221388610-ab938380-7c0f-46bc-be71-6ee2031cb6bb.gif">
-        <link rel="shortcut icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/2377/2377860.png">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
-        <link rel="stylesheet" href="style.css">
-
-        <!-- LinkediI Meta Tags -->
-        <meta property="og:url" content="https://user-images.githubusercontent.com/43890965/221388610-ab938380-7c0f-46bc-be71-6ee2031cb6bb.gif"/>
-        <meta property="og:title" content="QuakeEye - Real-Time Earthquake Data Visualization by Ahmed I. Mokhtari"/>
-        <meta property="og:description" content="QuakeEye - Real-Time Earthquake Data Visualization by Ahmed I. Mokhtari"/>
-        <meta property="og:image" content="https://user-images.githubusercontent.com/43890965/221388610-ab938380-7c0f-46bc-be71-6ee2031cb6bb.gif"/>
-
-        <!-- Facebook Meta Tags -->
-        <meta property="og:url" content="https://indigowizard.github.io/QuakeEye/map.html">
-        <meta property="og:type" content="website">
-        <meta property="og:title" content="QuakeEye - Real-Time Earthquake Data Visualization by Ahmed I. Mokhtari">
-        <meta property="og:description" content="QuakeEye - Real-Time Earthquake Data Visualization by Ahmed I. Mokhtari">
-        <meta property="og:image" content="https://user-images.githubusercontent.com/43890965/221388610-ab938380-7c0f-46bc-be71-6ee2031cb6bb.gif">
-
-        <!-- Twitter Meta Tags -->
-        <meta name="twitter:card" content="summary_large_image">
-        <meta property="twitter:domain" content="https://indigowizard.github.io/QuakeEye/map.html">
-        <meta property="twitter:url" content="https://indigowizard.github.io/QuakeEye/map.html">
-        <meta name="twitter:title" content="QuakeEye - Real-Time Earthquake Data Visualization by Ahmed I. Mokhtari">
-        <meta name="twitter:description" content="QuakeEye - Real-Time Earthquake Data Visualization by Ahmed I. Mokhtari">
-        <meta name="twitter:image" content="https://user-images.githubusercontent.com/43890965/221388610-ab938380-7c0f-46bc-be71-6ee2031cb6bb.gif">
-
-        <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+       
     </head>
     
     <style>
