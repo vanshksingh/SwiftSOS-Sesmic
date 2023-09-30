@@ -174,11 +174,3 @@ html_string = m._repr_html_()
 
 # Display the HTML string using Streamlit
 st.components.v1.html(html_string, width=1000, height=600)
-
-st.write("## Contribute to the Project")
-st.write("You can help improve this project and contribute in many ways, such as:")
-st.write("- 🐛 Reporting bugs and issues")
-st.write("- ✨ Suggesting new features")
-st.write("- 🛠️ Improving the existing codebase")
-st.write("- 💬 Spreading the word and encouraging others to use the app")
-st.markdown("<div class='footer-info'>To learn more and get involved, visit the project <span><a href='https://github.com/IndigoWizard/QuakeEye/blob/streamlit-app/.github/CONTRIBUTING.md' target='_blank' rel='noopener noreferrer'>GitHub repository</a> <img src='https://github.githubassets.com/favicons/favicon-dark.png' alt='icon-github' id='contribute'></span></div>", unsafe_allow_html=True)
