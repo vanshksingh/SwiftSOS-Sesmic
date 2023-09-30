@@ -24,15 +24,10 @@ except requests.exceptions.RequestException as expt:
 st.set_page_config(
     page_title="QuakeEye",
     page_icon="https://cdn-icons-png.flaticon.com/512/2377/2377860.png",
-    layout="wide",
+ 
 )
 
 
-st.subheader("SwiftSOS Visualiser")
-
-
-st.write("This app visualizes the latest earthquake data from [USGS](https://www.usgs.gov/) in real-time. The app retrieves earthquake data from the USGS API and displays the data on a map using the [Folium](https://python-visualization.github.io/folium/) library and is deployed using [Streamlit](https://streamlit.io/).")
-st.write("Users can filter and explore earthquake data by magnitude, frequency magnitude distribution and time range.")
 
 
 places = [feature["properties"]["place"] for feature in data ["features"]]
