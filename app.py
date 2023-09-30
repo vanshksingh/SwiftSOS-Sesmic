@@ -31,7 +31,7 @@ st.set_page_config(
 ########### MAIN PAGE CONTENT ###########
 # App title
 # Add a title to your Streamlit app
-st.subheader("QuakeEye - Real-Time Earthquake Data Visualization")
+st.subheader("SwiftSOS Visualiser")
 
 # Add a description of your Streamlit app
 st.write("This app visualizes the latest earthquake data from [USGS](https://www.usgs.gov/) in real-time. The app retrieves earthquake data from the USGS API and displays the data on a map using the [Folium](https://python-visualization.github.io/folium/) library and is deployed using [Streamlit](https://streamlit.io/).")
@@ -51,8 +51,9 @@ lats = [feature["geometry"]["coordinates"][1] for feature in data ["features"]]
 m = folium.Map(location=[36.5, 37.5], tiles=None, zoom_start=3)
 
 #Primary basemaps
-basemap0 = folium.TileLayer("cartodbdark_matter", name="Dark Theme Basemap").add_to(m)
 basemap1 = folium.TileLayer("openstreetmap", name="Open Street Map").add_to(m)
+basemap0 = folium.TileLayer("cartodbdark_matter", name="Dark Theme Basemap").add_to(m)
+
 
 ### Frequency Magnitude Distribution Heatmap
 # Making a coordinates list
