@@ -6,7 +6,7 @@ from branca.element import Template, MacroElement
 import requests
 from datetime import datetime, timedelta
 
-import appstyle
+#import appstyle
 
 
 url = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_month.geojson"
