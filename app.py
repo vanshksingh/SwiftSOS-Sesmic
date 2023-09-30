@@ -22,7 +22,7 @@ except requests.exceptions.RequestException as expt:
     st.stop()
 
 st.set_page_config(
-    page_title="QuakeEye",
+    page_title="SwiftSOS",
     page_icon="https://cdn-icons-png.flaticon.com/512/2377/2377860.png",
  
 )
