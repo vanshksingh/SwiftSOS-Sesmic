@@ -25,45 +25,8 @@ st.set_page_config(
     page_title="QuakeEye",
     page_icon="https://cdn-icons-png.flaticon.com/512/2377/2377860.png",
     layout="wide",
-    initial_sidebar_state="expanded",
-    menu_items={
-    'Get help': "https://github.com/IndigoWizard/QuakeEye",
-    'Report a bug': "https://github.com/IndigoWizard/QuakeEye/issues",
-    'About': "# This is a header. This is an *extremely* cool app!"
-    }
 )
 
-########### SIDEBAR  MENU ########### 
-# Set up the sidebar
-st.sidebar.title("Navigation")
-
-# Project summary section
-st.sidebar.subheader("Project Summary")
-st.sidebar.success("Real-Time Earthquake Data Visualization App.")
-
-# About section
-st.sidebar.subheader("About me:")
-st.sidebar.caption("**Ahmed I. Mokhtari (IndigoWizard):** <br> Tech & Open Source enthusiast | Geo Environment & Spatial Planning | Maps & Cartography | Remote Sensing & Geospatial Analysis | Indie Game Dev | House of M.",
-    unsafe_allow_html=True)
-
-# Contact section
-st.sidebar.subheader("Find me at:")
-
-## Define columns in the sidebar
-c1, c2, c3 = st.sidebar.columns([1, 1, 1])
-
-# Display info in the columns
-with c1:
-    st.info("[![LinkedIn](https://static.licdn.com/sc/h/8s162nmbcnfkg7a0k8nq9wwqo)](https://linkedin.com/in/ahmed-islem-mokhtari)")
-with c2:
-    st.info("[![GitHub](https://github.githubassets.com/favicons/favicon-dark.png)](https://github.com/IndigoWizard)")
-with c3:
-    st.info("[![Medium](https://miro.medium.com/1*m-R_BkNf1Qjr1YbyOIJY2w.png)](https://medium.com/@Indigo.Wizard/mt-chenoua-forest-fires-analysis-with-remote-sensing-614681f468e9)")
-
-st.sidebar.caption("ʕ •ᴥ•ʔ : Dont forget to star ⭐ this project on [GitHub.com/IndigoWizard/QuakeEye](https://github.com/IndigoWizard/QuakeEye/stargazers)")
-
-# App custom CSS
-st.markdown(appstyle.st_css,unsafe_allow_html=True,)
 
 ########### MAIN PAGE CONTENT ###########
 # App title
