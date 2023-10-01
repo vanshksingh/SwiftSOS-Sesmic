@@ -24,6 +24,7 @@ SwiftSOS-main is the updated ppt.
 <https://uyhvhzhg6qqkiyf6f8qddp.streamlit.app>
 <https://vsvsasas.wixsite.com/my-site-1>
 <https://vermausav018.wixsite.com/sos-dashboard>
+<https://addudeshpande.wixsite.com/my-site-1/services-2>
 
 
 
